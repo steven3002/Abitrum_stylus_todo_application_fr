@@ -100,7 +100,7 @@ const TodoList = () => {
         <div className="body">
             <div className="header">
 
-                <button className="login-button, button-30" id="loginBtn">{shortenAddress(user)}</button>
+                <button className="login-button, button-30" id="loginBtn" onClick={() => window.location.reload()}>{shortenAddress(user)}</button>
 
             </div>
             <div className="container">
